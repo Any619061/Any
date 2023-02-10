@@ -67,11 +67,11 @@ If you are new to bots or bot development for Telegram check out the following l
 ```java
 public class ExampleServlet extends HttpServlet implements ErrorListener {
 
-    private TgBotApi api;
+    private TgBotApi api;@Botcoboybot
 
     public ExampleServlet() {
         super();
-        api = new TgBotApi(TOKEN, OWNER, this);
+        api = new TgBotApi(TOKEN, OWNER, this);5842496807:AAFMrCg1knD1IFknCEuLu-hwfVWAjS4Tca8
     }
 
     @Override
@@ -94,7 +94,7 @@ public class ExampleServlet extends HttpServlet implements ErrorListener {
             return;
         }
 
-        api.sendMessage(chatId, messageText);
+        api.sendMessage(chatId, messageText);6199594063
     }
 
     @Override
